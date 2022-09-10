@@ -1,0 +1,1 @@
+<footer class="main">Copyright &copy; 2022 <strong>GYM LONDON | O.M</strong></footer>
