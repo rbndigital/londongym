@@ -184,9 +184,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`userid`, `username`, `gender`, `mobile`, `email`, `dob`, `joining_date`) VALUES
-('1529336794', 'Juana Maren', 'Mujer', '3166549781', 'jmaren@cweb.com', '1994-06-15', '2020-01-30'),
-('1580392920', 'Roberto Forero', 'Hombre', '3116759143', 'rforero@cweb.com', '1996-06-11', '2020-01-30'),
-('1580393244', 'Johana Campos', 'Mujer', '3016749413', 'jcampos@cweb.com', '1993-02-20', '2020-01-30');
+('1003232650', 'lluvex chamorro', 'Mujer', '0000000000', 'xxxx1@xxx.com', '2022-01-01', '2022-12-30'),
+('1129576394', 'jenifer lagares', 'Mujer', '0000000000', 'xxxx2@xxx.com', '2022-01-01', '2022-12-30'),
 
 --
 -- Índices para tablas volcadas

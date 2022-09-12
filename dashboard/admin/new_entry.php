@@ -97,8 +97,8 @@ page_protect();
          <tr>
            <td height="35"><table width="100%" border="0" align="center">
            	 <tr>
-           	   <td height="35">ID MEMBRESÍA:</td>
-           	   <td height="35"><input type="text" id="boxx" name="m_id" value="<?php echo time(); ?>" readonly required/></td>
+           	   <td height="35">ID MEMBRESÍA (Cédula):</td>
+           	   <td height="35"><input type="text" id="boxx" name="m_id" value=""/></td>
          	   </tr>
 			   
 			   <tr>
@@ -107,23 +107,23 @@ page_protect();
              </tr>
              <tr>
                <td height="35">DIRECCIÓN:</td>
-               <td height="35"><input  name="street_name" id="boxx"   required/></td>
+               <td height="35"><input  name="street_name" id="boxx"/></td>
              </tr>
              <tr>
                <td height="35">CIUDAD:</td>
-               <td height="35"><input <input type="text" name="city" id="boxx" required/ ></td>
+               <td height="35"><input type="text" name="city" id="boxx" /></td>
              </tr>
              <tr>
                <td height="35">CODIGO POSTAL:</td>
-               <td height="35"><input type="number" name="zipcode" id="boxx" maxlength="6" required / ></td>
+               <td height="35"><input type="number" name="zipcode" id="boxx" maxlength="6"></td>
              </tr>
             <tr>
                <td height="35">DEPARTAMENTO:</td>
-               <td height="35"><input type="text" name="state" id="boxx" required/ size="30"></td>
+               <td height="35"><input type="text" name="state" id="boxx" size="30"></td>
              </tr>
             <tr>
                <td height="35">GÉNERO:</td>
-               <td height="35"><select name="gender" id="boxx" required>
+               <td height="35"><select name="gender" id="boxx">
 
 					<option value="">--Favor Seleccionar--</option>
 					<option value="Hombre">Hombre</option>
@@ -132,15 +132,15 @@ page_protect();
              </tr>
             <tr>
                <td height="35">FECHA DE NACIMIENTO:</td>
-               <td height="35"><input type="date" name="dob" id="boxx" required/ size="30"></td>
+               <td height="35"><input type="date" name="dob" id="boxx" size="30"></td>
              </tr>
 			 <tr>
                <td height="35">No TELÉFONO:</td>
-               <td height="35"><input type="number" name="mobile" id="boxx" maxlength="10" required/ size="30"></td>
+               <td height="35"><input type="number" name="mobile" id="boxx" maxlength="10" required size="30"></td>
              </tr>
 			  <tr>
                <td height="35">CORREO ELECTRÓNICO:</td>
-               <td height="35"><input type="email" name="email" id="boxx" required/ size="30"></td>
+               <td height="35"><input type="email" name="email" id="boxx" size="30"></td>
              </tr>
 			 <tr>
                <td height="35">FECHA DE INGRESO:</td>

@@ -1,7 +1,7 @@
 <?php
 $host     = "localhost"; // Host name 
 $username = "root"; // Mysql username 
-$password = "Unix19029311"; // Mysql password 
+$password = "Unix19029311"; // Mysql password Unix19029311
 $db_name  = "titangym"; // Database name 
 
 // Connect to server and select databse.
